@@ -206,9 +206,11 @@ enum class NESOpcodes : uint8
 	BEQ = 0xF0,
 
 	// BNE
-	BNE = 0xD0
+	BNE = 0xD0,
 
 	// BPL
+	BPL = 0x10,
 
 	// BMI
+	BMI = 0x30
 };
