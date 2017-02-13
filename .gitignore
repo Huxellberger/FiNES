@@ -4,3 +4,9 @@
 *.ipch
 *.suo
 *.db
+*.png
+*.xml
+*.appxmanifest
+*.pfx
+*.xaml
+*.cache
