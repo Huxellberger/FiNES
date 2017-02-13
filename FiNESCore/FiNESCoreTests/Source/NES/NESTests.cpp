@@ -5,7 +5,7 @@
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace NESTests
+namespace FiNESCoreNESTests
 {
 	TEST_CLASS( NESTestFixture )
 	{
