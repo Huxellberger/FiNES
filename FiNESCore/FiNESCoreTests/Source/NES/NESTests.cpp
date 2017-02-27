@@ -12,9 +12,9 @@ namespace FiNESCoreNESTests
 	public:
 		TEST_METHOD( GivenNES_WhenCreated_ActiveSetToTrue )
 		{
-			NES testNes = NES();
+			NES TestNes = NES();
 
-			Assert::IsTrue( testNes.active );
+			Assert::IsTrue( TestNes.Active );
 		}
 	};
 }

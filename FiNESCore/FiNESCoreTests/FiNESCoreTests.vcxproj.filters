@@ -16,13 +16,11 @@
     <ClCompile Include="UnitTestApp.xaml.cpp" />
     <ClCompile Include="UnitTest.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="..\FiNESCore\Source\NES\NES.cpp" />
     <ClCompile Include="Source\NES\NESTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="UnitTestApp.xaml.h" />
-    <ClInclude Include="..\FiNESCore\Source\NES\NES.h" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="UnitTestApp.rd.xml" />

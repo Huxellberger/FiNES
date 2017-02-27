@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FiNES", "FiNES.vcxproj", "{ED9748E9-15E3-47D9-8BEF-F5B71B6BEC68}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBBE4961-61DC-4A3E-907C-A1248C69FED7} = {BBBE4961-61DC-4A3E-907C-A1248C69FED7}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FiNESCore", "..\FiNESCore\FiNESCore\FiNESCore.vcxproj", "{BBBE4961-61DC-4A3E-907C-A1248C69FED7}"
 EndProject
