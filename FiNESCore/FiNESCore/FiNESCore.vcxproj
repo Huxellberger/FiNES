@@ -99,6 +99,7 @@
   <PropertyGroup />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <GenerateManifest>false</GenerateManifest>
+    <IncludePath>$(SolutionDir)..\FiNESCore;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <GenerateManifest>false</GenerateManifest>
@@ -190,7 +191,9 @@
   <ItemGroup>
     <ClInclude Include="FiNESCore.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Source\CPU\NESCPU.h" />
     <ClInclude Include="Source\CPU\Opcodes\NESOpcodes.h" />
+    <ClInclude Include="Source\NES\NES.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
@@ -203,6 +206,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Source\CPU\NESCPU.cpp" />
+    <ClCompile Include="Source\NES\NES.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

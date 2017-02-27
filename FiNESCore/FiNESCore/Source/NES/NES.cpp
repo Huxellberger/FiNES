@@ -1,8 +1,9 @@
 #include "pch.h"
 
-#include "NES.h"
+#include "FiNESCore/Source/NES/NES.h"
 
 NES::NES()
+	: CPU()
+	, Active( true )
 {
-	active = true;
 }

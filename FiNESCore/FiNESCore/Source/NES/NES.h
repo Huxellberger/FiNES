@@ -1,10 +1,13 @@
 #pragma once
 
+#include "FiNESCore/Source/CPU/NESCPU.h"
+
 class NES
 {
 public:
 
 	NES();
 
-	bool active;
+	NESCPU CPU;
+	bool Active;
 };

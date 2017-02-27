@@ -9,11 +9,15 @@
   <ItemGroup>
     <ClCompile Include="FiNESCore.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Source\CPU\NESCPU.cpp" />
+    <ClCompile Include="Source\NES\NES.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FiNESCore.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Source\CPU\Opcodes\NESOpcodes.h" />
+    <ClInclude Include="Source\CPU\NESCPU.h" />
+    <ClInclude Include="Source\NES\NES.h" />
   </ItemGroup>
 </Project>
